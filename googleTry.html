@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="googleTry.css"
+<link rel="stylesheet" href="googleTry.css">
+<script src="googleTry.js"></script>
 </head>
 <body>
 
 <div class="header">
-  <h1>Google</h1>
+  <h1 id="display"></h1>
 </div>
 
 <div>
-  <input class="inputBar" type="text" name="keyword">
+  <input id="input" class="inputBar" type="text" name="keyword" onkeyup="displayInput()">
 </div>
 
 </body>
